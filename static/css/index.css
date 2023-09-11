@@ -17,9 +17,9 @@ header{
     padding: 30px;
     background-color: black;
     display: flex;
-    position: sticky;
+    /* position: sticky;
     top:0;
-    z-index: 1;
+    z-index: 1; */
 }
 article{
     padding: 10px;
@@ -56,6 +56,9 @@ article .col:hover{
 .personal-details div{
     margin: 5px;
 }
+.personal-details .row{
+    justify-content: left;
+}
 .education h2{
     text-align: center;
 }
@@ -71,6 +74,19 @@ article .col:hover{
 .edu{
     width: 70%;
     text-align: left;
+}
+.details{
+    width: 70%;
+}
+.small-icon-div{
+    text-align: left;
+    width: 20%;
+}
+.small-icon{
+    width: 20px;
+}
+.icon{
+    max-width: 40px;
 }
 .year{
     width: 20%;
