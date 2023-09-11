@@ -37,6 +37,7 @@ footer{
     margin: 20px;
     width:25%;
     transition-duration: 0.6s;
+    padding-bottom: 10px;
 }
 article .col:hover{
     background-color: aliceblue;
